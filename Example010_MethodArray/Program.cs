@@ -11,7 +11,7 @@ while (index < n)
     if (array[index] == find)
     {
         Console.WriteLine(index);
-        break;
+        break;                    //чтобы показывался только первый индекс, если у нас несколько find
     }
     //index = index + 1;
     index++;
